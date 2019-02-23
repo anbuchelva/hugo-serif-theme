@@ -5,18 +5,18 @@
     width: 120px;
   }
   img {
-    width: 100%;
+    width: auto;
     height: auto;
   }
   a {
     display: block;
-    width: 100%;
+    width: auto;
     height: 100%;
   }
 }
 .logo-mobile {
   display: block;
-  width: 40px;
+  width: auto;
   padding: 10px 0 10px 0;
   @include media-breakpoint-up(sm) {
     display: none;
